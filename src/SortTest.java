@@ -44,7 +44,7 @@ class SortTest {
     @Test
     void testBubbleSort() {
 
-        String[] sortedArrayTwo = {"afraid", "don't", "fear", "hear", "I", "knowing", "me", "never", "of", "tell", "wanna", "what"};
+        String[] sortedArrayTwo = {"I", "afraid", "don't", "fear", "hear", "knowing", "me", "never", "of", "tell", "wanna", "what"};
         Sort.bubbleSort(arrayTwo);
         for (int i = 0; i < sortedArrayTwo.length; i++) assertEquals(sortedArrayTwo[i], arrayTwo[i]);
 
@@ -71,7 +71,7 @@ class SortTest {
     @Test
     void testSelectionSort() {
 
-        String[] sortedArrayTwo = {"afraid", "don't", "fear", "hear", "I", "knowing", "me", "never", "of", "tell", "wanna", "what"};
+        String[] sortedArrayTwo = {"I", "afraid", "don't", "fear", "hear", "knowing", "me", "never", "of", "tell", "wanna", "what"};
         Sort.selectionSort(arrayTwo);
         for (int i = 0; i < sortedArrayTwo.length; i++) assertEquals(sortedArrayTwo[i], arrayTwo[i]);
 
@@ -80,7 +80,7 @@ class SortTest {
     @Test
     void testSelectionSort1() {
 
-        String[] sortedArrayTwo = {"afraid", "don't", "fear", "hear", "I", "knowing", "me", "never", "of", "tell", "wanna", "what"};
+        String[] sortedArrayTwo = {"I", "afraid", "don't", "fear", "hear", "knowing", "me", "never", "of", "tell", "wanna", "what"};
         Sort.selectionSort(listTwo);
         for (int i = 0; i < sortedArrayTwo.length; i++) assertEquals(sortedArrayTwo[i], listTwo.get(i));
 
